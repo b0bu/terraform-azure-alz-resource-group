@@ -7,3 +7,6 @@ variable "location" {
   default = "uksouth"
 }
 
+variable "tags" {
+  type = map(string)
+}
